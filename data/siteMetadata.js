@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'CRIPGOLD',
   headerTitle: 'CRIPGOLD',
   description: 'Servicios de oro',
-  language: 'en-us',
+  language: 'es-co',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://cripgold.com',
   siteRepo: 'https://github.com/bracarli/cripgold-landing',
