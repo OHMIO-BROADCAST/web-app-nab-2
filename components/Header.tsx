@@ -1,5 +1,6 @@
 import headerNavLinks from '@/data/headerNavLinks'
 import classNames from 'classnames'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import CommandPalette from './CommandPalette/CommandPalette'
@@ -15,14 +16,15 @@ export default function Header() {
         <div>
           <Link href="/" className="flex items-center justify-between" aria-label="Home">
             <div
-              className={classNames(
-                'horizontal-underline hidden text-3xl font-extrabold sm:block',
-                {
-                  'horizontal-underline-active': router.pathname === '/',
-                }
-              )}
+              className={classNames(' hidden text-3xl font-extrabold sm:block', {
+                '-active': router.pathname === '/',
+              })}
             >
-              d.
+              <img
+                src={'/static/images/logoblanco.png'}
+                alt="logo"
+                style={{ width: '10rem', height: 'auto' }}
+              />
             </div>
           </Link>
         </div>
@@ -48,7 +50,7 @@ export default function Header() {
           </div>
           <div className="flex items-center">
             <CommandPalette />
-            <ThemeSwitch />
+            {/* <ThemeSwitch /> */}
             <MobileNav />
           </div>
         </div>
