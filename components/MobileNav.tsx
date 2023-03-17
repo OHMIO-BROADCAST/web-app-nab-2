@@ -18,7 +18,17 @@ const MobileNav = () => {
   }, [navShow])
 
   return (
-    <div className="sm:hidden">
+    <div className="sm:hidden" style={{ display: 'flex', justifyContent: 'center' }}>
+      <div
+        className="md:hidden lg:hidden"
+        style={{ width: '100%', justifyContent: 'center', alignItems: 'center' }}
+      >
+        <img
+          src={'/static/images/logoblanco.png'}
+          alt="logo"
+          style={{ width: '10rem', height: 'auto' }}
+        />
+      </div>
       <button
         type="button"
         className="ml-1 mr-1 h-8 w-8 rounded py-1"
@@ -65,6 +75,13 @@ const MobileNav = () => {
           </button>
         </header>
         <nav className="fixed mt-8 h-full">
+          <div style={{ width: '100%', justifyContent: 'center', alignItems: 'center' }}>
+            <img
+              src={'/static/images/logoblanco.png'}
+              alt="logo"
+              style={{ width: '10rem', height: 'auto' }}
+            />
+          </div>
           <div key="Home" className="px-12 py-4">
             <Link
               href="/"
