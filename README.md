@@ -1,4 +1,4 @@
-# dalelarroder.com ⚡️
+# cripgoldrroder.com ⚡️
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -13,13 +13,13 @@
 1. Clone this repo
 
 ```bash
-git clone git@github.com:dlarroder/dalelarroder.git
+git clone git@github.com:dlarroder/cripgoldrroder.git
 ```
 
 2. Change directory
 
 ```sh
-cd dalelarroder
+cd cripgoldrroder
 ```
 
 3. Install yarn packages
@@ -71,8 +71,8 @@ This is the second version of my website.
 
 Prevoius v1 version:
 
-- https://v1.dalelarroder.com/
+- https://v1.cripgoldrroder.com/
 
 ## Licence
 
-[MIT](https://github.com/dlarroder/dalelarroder/blob/master/LICENSE) © [CRIPGOLD](https://www.dalelarroder.com)
+[MIT](https://github.com/dlarroder/cripgoldrroder/blob/master/LICENSE) © [CRIPGOLD](https://www.cripgoldrroder.com)

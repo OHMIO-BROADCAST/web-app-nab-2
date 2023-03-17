@@ -36,7 +36,7 @@ input:-webkit-autofill:focus {
 
 .horizontal-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent), linear-gradient(#de1d8d, #de1d8d);
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#f6b900, #f6b900);
   background-size: 0 3px;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@ input:-webkit-autofill:focus {
 }
 
 #nprogress .bar {
-  background: #de1d8d !important;
+  background: #f6b900 !important;
   height: 4px !important;
 }
 
