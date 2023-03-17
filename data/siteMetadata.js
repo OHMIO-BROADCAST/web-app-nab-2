@@ -10,7 +10,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logoblanco.png',
   image: '/static/images/logoblanco.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'dlarroder@gmail.com',
+  email: 'cripgold@gmail.com',
   github: 'https://github.com/bracarli',
   twitter: 'https://twitter.com/cripgold',
   facebook: 'https://facebook.com/cripgold',
