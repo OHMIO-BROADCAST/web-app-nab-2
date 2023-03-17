@@ -52,7 +52,7 @@ export default function Intro() {
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            Invierte en el futuro con CRIPGOLD y su enfoque en tecnología.{' '}
+            Invierte en el futuro con OHMIO y su enfoque en tecnología.{' '}
           </span>
         </div>
       </div>

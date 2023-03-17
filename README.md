@@ -75,4 +75,4 @@ Prevoius v1 version:
 
 ## Licence
 
-[MIT](https://github.com/dlarroder/cripgoldrroder/blob/master/LICENSE) © [CRIPGOLD](https://www.cripgoldrroder.com)
+[MIT](https://github.com/dlarroder/cripgoldrroder/blob/master/LICENSE) © [OHMIO](https://www.cripgoldrroder.com)
