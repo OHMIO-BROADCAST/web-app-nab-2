@@ -45,8 +45,18 @@ export default function Hero(): ReactElement {
                   </h1>
                 </FadeUp>
                 <FadeUp duration={0.6} delay={0.2}>
+                  <h2
+                    className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl"
+                    style={{
+                      color: '#F38D10',
+                    }}
+                  >
+                    NABShow | Event 2023
+                  </h2>
+                </FadeUp>
+                <FadeUp duration={0.6} delay={0.2}>
                   <h2 className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl">
-                    Nueva era de servicios para el comercio de oro.
+                    Bring the Web3.0 to Broadcast Industry
                   </h2>
                 </FadeUp>
                 <FadeRight duration={0.5} delay={0.8}>
@@ -54,7 +64,7 @@ export default function Hero(): ReactElement {
                     href="/about"
                     className="underline-magical text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl"
                   >
-                    Aprender más &rarr;
+                    Claim your event reward &rarr;
                   </Link>
                 </FadeRight>
               </div>

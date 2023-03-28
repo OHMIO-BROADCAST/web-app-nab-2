@@ -39,20 +39,26 @@ export default function Intro() {
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-10 py-24 text-4xl font-semibold tracking-tight md:py-28 md:text-6xl lg:px-20 lg:py-3 lg:text-7xl">
         <div className="leading-[1.15]">
           <div className="introText" style={{ opacity: opacityForBlock(progress, 0) }}>
-            El oro es nuestra garantía, la confianza es nuestro compromiso.
+            OHMIO makes possible tokenizing the efficiency and rating of transmission stations over
+            the world.
           </div>
           <span
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            La mejor opción para aquellos que buscan soluciones de inversión en oro confiables y
-            efectivas.
+            Monitoring Power Consumption.
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            Invierte en el futuro con OHMIO y su enfoque en tecnología.{' '}
+            Run our nodes in your Radio/Tv station and generate a new income.{' '}
+          </span>
+          <span
+            className="introText inline-block"
+            style={{ opacity: opacityForBlock(progress, 2) }}
+          >
+            DVB, DVB-T2, ATSC, ISDB-Tb. All Standards Supported.{' '}
           </span>
         </div>
       </div>
