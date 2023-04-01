@@ -10,37 +10,37 @@ export type WorkTile = {
 
 export const workTiles: WorkTile[] = [
   {
-    description: `Here are things`,
-    title: `I've worked on`,
+    description: `Control and Management your`,
+    title: `Parameters of transmision`,
     image: {
-      src: '/static/images/aphex-apps.webp',
-      width: 600,
+      src: '/static/images/aphex.png',
+      width: 800,
       height: 770,
     },
   },
   {
-    description: 'I built',
-    title: 'Aphex Field',
+    description: 'Run blockchain nodes through OHMIO Box',
+    title: 'into the transport stream',
     image: {
-      src: '/static/images/field-app.webp',
+      src: '/static/images/field-app.png',
       width: 600,
       height: 554,
     },
   },
   {
-    description: `I maintained`,
-    title: 'Aphex Planner',
+    description: `Boost your transmission`,
+    title: '& earn rewards',
     image: {
-      src: '/static/images/planner-app.webp',
+      src: '/static/images/planner-app.png',
       width: 600,
       height: 717,
     },
   },
   {
-    description: `I built`,
-    title: 'Aphex Publication',
+    description: `Special reward for`,
+    title: 'NAB Show participants',
     image: {
-      src: '/static/images/publication-app.webp',
+      src: '/static/images/nabshow.png',
       width: 600,
       height: 717,
     },
