@@ -29,7 +29,7 @@ export default function PostCard({ posts, showTags = true }: PostCardProps) {
                       className={
                         index == 0
                           ? 'text-primary-500 duration-300 hover:text-primary-400'
-                          : 'text-cyan-500 duration-300 hover:text-primary-400'
+                          : 'text-cyan-500 duration-300 hover:text-cyan-400'
                       }
                     >
                       {title}

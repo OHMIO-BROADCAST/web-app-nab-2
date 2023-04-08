@@ -15,7 +15,7 @@ export default function Intro() {
   const { scrollY } = useContext(ScrollContext)
   const refContainer = useRef<HTMLDivElement>(null)
 
-  const numOfPages = 3
+  const numOfPages = 5
   let progress = 0
   const { current: elContainer } = refContainer
 
@@ -38,31 +38,60 @@ export default function Intro() {
     >
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-10 py-24 text-4xl font-semibold tracking-tight md:py-28 md:text-6xl lg:px-20 lg:py-3 lg:text-7xl">
         <div className="leading-[1.15]">
-          <div className="introText" style={{ opacity: opacityForBlock(progress, 0) }}>
-            OHMIO makes possible tokenizing the measures in parameters of transmission stations over
+          <div
+            className="introText"
+            style={{ opacity: opacityForBlock(progress, 0), marginTop: '4rem' }}
+          >
+            OHMIO makes possible tokenize the measures in parameters of transmission stations over
             the world.
           </div>
           <span
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            Monitoring the quality of your strean.
+            Monitoring the quality of your stream.
+          </span>
+          <span
+            className="introText inline-block after:content-['_']"
+            style={{ opacity: opacityForBlock(progress, 1) }}
+          >
+            Powered by <span className="text-primary-500">Internet of Things (IoT)</span>,{' '}
+            <span className="text-cyan-500">Blockchain</span> &{' '}
+            <span className="text-green-500">Web 3.0</span>
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            Run nodes in your Radio/Tv station and generate a new income.{' '}
+            Run nodes in your Radio/TV station and generate a new kind of income.{' '}
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
+          >
+            Help to improve the network and validate transactions.{' '}
+          </span>
+          <span
+            className="introText inline-block after:content-['_']"
+            style={{ opacity: opacityForBlock(progress, 3) }}
+          >
+            OHMIO uses <span className="text-pink-500">Artificial Intelligence (AI)</span> to
+            analyze data.
+          </span>
+
+          <span
+            className="introText inline-block after:content-['_']"
+            style={{ opacity: opacityForBlock(progress, 4) }}
           >
             DVB, DVB-T2, ATSC, ISDB-Tb.{' '}
           </span>
           <span
-            className="introText inline-block"
-            style={{ opacity: opacityForBlock(progress, 2), textDecoration: 'underline' }}
+            className="introText inline-block after:content-['_']"
+            style={{
+              opacity: opacityForBlock(progress, 4),
+              textDecoration: 'underline',
+              marginBottom: '4rem',
+            }}
           >
             All Standards Supported.{' '}
           </span>
