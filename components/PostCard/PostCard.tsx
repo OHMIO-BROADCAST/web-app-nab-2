@@ -24,17 +24,22 @@ export default function PostCard({ posts, showTags = true }: PostCardProps) {
             <article className="cursor-pointer gap-3 space-y-2 bg-opacity-20 py-5 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
               <div className="space-y-3 xl:col-span-4">
                 <span className="text-2xl font-bold leading-8 tracking-tight">
-                  <Link href={index == 0 ? '/rewards' : '/contact'}>
-                    <span className="text-primary-500 duration-300 hover:text-primary-400">
+                  <Link href={index == 0 ? '/claim-rewards' : '/contact'}>
+                    <span
+                      className={
+                        index == 0
+                          ? 'text-primary-500 duration-300 hover:text-primary-400'
+                          : 'text-cyan-500 duration-300 hover:text-primary-400'
+                      }
+                    >
                       {title}
                     </span>
                   </Link>
                 </span>
                 {showTags && tags && (
                   <div className="flex flex-wrap gap-3">
-                    {tags.map((tag) => (
-                      <Tag key={tag} text={tag} />
-                    ))}
+                    {index == 0 && tags.map((tag) => <Tag key={tag} text={tag} type={0} />)}
+                    {index == 1 && tags.map((tag) => <Tag key={tag} text={tag} type={1} />)}
                   </div>
                 )}
                 <div className="prose max-w-none text-gray-900 dark:text-gray-100">{summary}</div>

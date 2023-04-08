@@ -30,7 +30,7 @@ export default function Tags({ tags }: InferGetStaticPropsType<typeof getStaticP
           {sortedTags.map((t) => {
             return (
               <div key={t} className="mt-2 mb-2 mr-5">
-                <Tag text={t} />
+                <Tag text={t} type={0} />
                 <h1 className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300">
                   {` (${tags[t]})`}
                 </h1>

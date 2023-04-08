@@ -6,7 +6,7 @@ import { allCoreContent } from '@/lib/utils/contentlayer'
 import { allBlogs } from 'contentlayer/generated'
 import { InferGetStaticPropsType } from 'next'
 import { sortedBlogPost } from '../../../lib/utils/contentlayer'
-import { POSTS_PER_PAGE } from '../../blog'
+import { POSTS_PER_PAGE } from '../../steps'
 
 export const getStaticPaths = async () => {
   const totalPosts = sortedBlogPost(allBlogs)
