@@ -38,7 +38,7 @@ export default function Footer() {
                 <FaTwitter className="sm:text-lg" />
               </a>
             </li>
-            <li>
+            {/*             <li>
               <a href={siteMetadata.spotify} target="_blank" rel="noreferrer" aria-label="spotify">
                 <FaSpotify className="sm:text-lg" />
               </a>
@@ -47,7 +47,7 @@ export default function Footer() {
               <a href={siteMetadata.steam} target="_blank" rel="noreferrer" aria-label="steam">
                 <FaSteam className="sm:text-lg" />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
