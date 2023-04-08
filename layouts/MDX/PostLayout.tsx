@@ -27,7 +27,7 @@ export default function PostLayout({ content, authorDetails, children, next, pre
   return (
     <>
       <BlogSEO
-        url={`${siteMetadata.siteUrl}/blog/${slug}`}
+        url={`${siteMetadata.siteUrl}/steps/${slug}`}
         authorDetails={authorDetails}
         {...content}
       />

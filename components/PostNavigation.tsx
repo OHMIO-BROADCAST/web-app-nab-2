@@ -15,7 +15,7 @@ export default function PostNavigation({ prev, next }: PostNavigationProps) {
           <div className="flex flex-col items-center space-y-1 sm:items-start">
             <span className="italic">Previous Blog</span>
             <Link
-              href={`/blog/${prev.slug}`}
+              href={`/steps/${prev.slug}`}
               className="underline-magical max-w-sm truncate sm:max-w-[250px] xl:max-w-md"
             >
               &larr; {prev.title}
@@ -28,7 +28,7 @@ export default function PostNavigation({ prev, next }: PostNavigationProps) {
           <div className="flex flex-col items-center space-y-1 sm:items-end">
             <span className="italic">Next Blog</span>
             <Link
-              href={`/blog/${next.slug}`}
+              href={`/steps/${next.slug}`}
               className="underline-magical max-w-sm truncate sm:max-w-[250px] xl:max-w-md"
             >
               {next.title} &rarr;

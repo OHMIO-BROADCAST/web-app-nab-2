@@ -31,12 +31,9 @@ export default function Tags({ tags }: InferGetStaticPropsType<typeof getStaticP
             return (
               <div key={t} className="mt-2 mb-2 mr-5">
                 <Tag text={t} />
-                <Link
-                  href={`/tags/${kebabCase(t)}`}
-                  className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300"
-                >
+                <h1 className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300">
                   {` (${tags[t]})`}
-                </Link>
+                </h1>
               </div>
             )
           })}

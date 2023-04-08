@@ -15,7 +15,7 @@ export default function Works() {
       <TileContent>
         {workTiles.map((work, i) => (
           <Tile page={i} key={work.title}>
-            <WorkContent work={work} />
+            <WorkContent index={i} work={work} />
           </Tile>
         ))}
       </TileContent>

@@ -9,6 +9,7 @@ import {
   HiOutlineHome,
   HiOutlinePencil,
   HiOutlineUser,
+  HiUser,
 } from 'react-icons/hi'
 import { TbBolt, TbBoltOff } from 'react-icons/tb'
 
@@ -41,15 +42,21 @@ export default function usePaletteOptions() {
 
   const pageOptions: PaletteOption[] = [
     { id: '/', name: 'Home', icon: <HiOutlineHome />, onSelect: (v) => router.push(v) },
-    { id: '/blog', name: 'Blog', icon: <HiOutlinePencil />, onSelect: (v) => router.push(v) },
+    { id: '/steps', name: 'Blog', icon: <HiOutlinePencil />, onSelect: (v) => router.push(v) },
     { id: '/about', name: 'About', icon: <HiOutlineUser />, onSelect: (v) => router.push(v) },
-    { id: '/uses', name: 'Uses', icon: <HiOutlineDocumentAdd />, onSelect: (v) => router.push(v) },
+    { id: '/uses', name: 'Uses', icon: <HiUser />, onSelect: (v) => router.push(v) },
+    {
+      id: '/uses',
+      name: 'Contact',
+      icon: <HiOutlineDocumentAdd />,
+      onSelect: (v) => router.push(v),
+    },
   ]
 
   const blogOptions: PaletteOption[] = sortedPosts.map((post) => ({
     id: post.slug,
     name: post.title,
-    onSelect: (v) => router.push(`/blog/${v}`),
+    onSelect: (v) => router.push(`/steps/${v}`),
   }))
 
   return { pageOptions, blogOptions, generalOptions }

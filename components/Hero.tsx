@@ -51,7 +51,7 @@ export default function Hero(): ReactElement {
                       color: '#F38D10',
                     }}
                   >
-                    NABShow | Event 2023
+                    NAB Show | Event 2023
                   </h2>
                 </FadeUp>
                 <FadeUp duration={0.6} delay={0.2}>

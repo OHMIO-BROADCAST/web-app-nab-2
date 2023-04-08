@@ -30,13 +30,19 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
             {title}
           </h1>
           <div className="relative max-w-full">
-            <input
+            <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-600 dark:text-gray-200 sm:text-3xl sm:leading-10 md:text-3xl md:leading-14">
+              Follow the next steps & claim your tokens
+            </h2>
+          </div>
+          {/* 
+          <div className="relative max-w-full">
+           <input
               aria-label="Search articles"
               type="text"
               onChange={(e) => setSearchValue(e.target.value)}
               placeholder="Search articles"
               className="block w-full rounded-md border-0 bg-gray-200 bg-opacity-50 px-4 py-3 text-gray-900 focus:border-sky-500 focus:ring-sky-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
-            />
+            /> 
             <svg
               className="absolute right-3 top-3 h-6 w-6 text-gray-400 dark:text-gray-300"
               xmlns="http://www.w3.org/2000/svg"
@@ -52,6 +58,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
               />
             </svg>
           </div>
+          */}
         </div>
         <PostCard posts={displayPosts} />
       </div>
