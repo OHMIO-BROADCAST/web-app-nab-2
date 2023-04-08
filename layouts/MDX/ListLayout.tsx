@@ -31,7 +31,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           </h1>
           <div className="relative max-w-full">
             <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-600 dark:text-gray-200 sm:text-3xl sm:leading-10 md:text-3xl md:leading-14">
-              Follow the next steps & claim your tokens
+              Follow the next steps
             </h2>
           </div>
           {/* 
