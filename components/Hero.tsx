@@ -7,6 +7,7 @@ import FadeRight from './Animations/FadeRight'
 import FadeUp from './Animations/FadeUp'
 import { renderCanvas } from './renderCanvas'
 import { ScrollContext } from './ScrollObserver'
+import Image from 'next/image'
 
 export default function Hero(): ReactElement {
   const ref = useRef<HTMLHeadingElement>(null)
@@ -45,18 +46,34 @@ export default function Hero(): ReactElement {
                   </h1>
                 </FadeUp>
                 <FadeUp duration={0.6} delay={0.2}>
-                  <h2
+                  <div
                     className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl"
                     style={{
-                      color: '#F38D10',
+                      color: '#E8E95B',
                     }}
                   >
                     NAB Show | Event 2023
-                  </h2>
+                  </div>
+                  <div
+                    style={{
+                      color: '#E8E95B',
+                      display: 'flex',
+                      justifyContent: 'end',
+                      width: '100%',
+                    }}
+                  >
+                    <Image
+                      src={'/static/images/nabshow.png'}
+                      alt="nablogo"
+                      width={400}
+                      height={100}
+                      style={{ borderRadius: 50 }}
+                    />
+                  </div>
                 </FadeUp>
                 <FadeUp duration={0.6} delay={0.2}>
                   <h2 className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl">
-                    Bring the Web3.0 to Broadcast Industry
+                    Bring the <span className="text-green-500">Web 3.0</span> to Broadcast Industry
                   </h2>
                 </FadeUp>
                 <FadeRight duration={0.5} delay={0.8}>

@@ -49,7 +49,7 @@ export default function Intro() {
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            Monitoring the quality of your stream.
+            Boost the quality of your stream.
           </span>
           <span
             className="introText inline-block after:content-['_']"
@@ -63,13 +63,14 @@ export default function Intro() {
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            Run nodes in your Radio/TV station and generate a new kind of income.{' '}
+            Run nodes in your Radio/TV station and generate a new source of income.{' '}
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            Help to improve the network and validate transactions.{' '}
+            Improve the <span className="text-cyan-500">Blockchain</span> and validate
+            microtransactions.{' '}
           </span>
           <span
             className="introText inline-block after:content-['_']"
