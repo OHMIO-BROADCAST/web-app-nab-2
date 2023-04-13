@@ -47,14 +47,6 @@ export default function Hero(): ReactElement {
                 </FadeUp> */}
                 <FadeUp duration={0.6} delay={0.2}>
                   <div
-                    className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl"
-                    style={{
-                      color: '#E8E95B',
-                    }}
-                  >
-                    NAB Show | Event 2023
-                  </div>
-                  <div
                     style={{
                       color: '#E8E95B',
                       display: 'flex',
@@ -69,6 +61,14 @@ export default function Hero(): ReactElement {
                       height={100}
                       style={{ borderRadius: 50 }}
                     />
+                  </div>
+                  <div
+                    className="text-3xl font-medium opacity-80 sm:text-6xl md:text-6xl xl:text-7xl"
+                    style={{
+                      color: '#E8E95B',
+                    }}
+                  >
+                    NAB Show | Event 2023
                   </div>
                 </FadeUp>
                 <FadeUp duration={0.6} delay={0.2}>
