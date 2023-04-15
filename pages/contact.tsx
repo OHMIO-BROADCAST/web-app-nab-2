@@ -25,7 +25,7 @@ export default function About({ author }: InferGetStaticPropsType<typeof getStat
         <div className="prose max-w-none pb-8 text-justify text-sm dark:prose-dark md:text-lg xl:col-span-2">
           In order to be able to claim your event rewards later or keep in touch
         </div>
-        <Widget id="<SVhYuniO>" style={{ width: '100%', height: '100%' }} className="my-form" />
+        <Widget id="SVhYuniO" style={{ width: '100%', height: '40rem' }} className="my-form" />
       </div>
     </MainLayout>
   )

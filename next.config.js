@@ -15,7 +15,7 @@ const ContentSecurityPolicy = `
   media-src 'none';
   connect-src * https://*.logrocket.io https://*.lr-ingest.io https://*.logrocket.com https://*.lr-in.com https://*.lr-in-prod.com;
   font-src 'self';
-  frame-src giscus.app
+  frame-src giscus.app form.typeform.com typeform.com www.typeform.com
 `
 
 const securityHeaders = [
