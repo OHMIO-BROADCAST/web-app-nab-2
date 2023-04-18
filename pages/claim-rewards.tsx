@@ -18,8 +18,17 @@ import { TbCoin } from 'react-icons/tb'
 
 import { JigsawPuzzle } from 'react-jigsaw-puzzle/lib'
 import 'react-jigsaw-puzzle/lib/jigsaw-puzzle.css'
+import { MoralisProvider } from 'react-moralis'
 
 const DEFAULT_LAYOUT = 'RewardLayout'
+
+export const envData = {
+  SERVER_URL: process.env.REACT_APP_MORALIS_SERVER_URL as string,
+  APP_ID: process.env.REACT_APP_MORALIS_APPLICATION_ID as string,
+}
+
+const APP_ID = process.env.REACT_APP_MORALIS_APPLICATION_ID as string
+const SERVER_URL = process.env.REACT_APP_MORALIS_SERVER_URL as string
 
 const questions = [
   {
@@ -85,7 +94,7 @@ export default function About({ author }: InferGetStaticPropsType<typeof getStat
         <dl
           style={{
             position: 'fixed',
-            bottom: '9rem',
+            bottom: '6rem',
             width: '100%',
             display: 'flex',
             justifyContent: 'center',
@@ -155,7 +164,12 @@ export default function About({ author }: InferGetStaticPropsType<typeof getStat
             Connect wallet
           </button>
           <div
-            style={{ borderWidth: '1px', borderBottom: '1px', borderColor: 'white', width: '100%' }}
+            style={{
+              borderWidth: '1px',
+              borderBottom: '1px',
+              borderColor: 'white',
+              width: '100%',
+            }}
           ></div>
 
           <div
