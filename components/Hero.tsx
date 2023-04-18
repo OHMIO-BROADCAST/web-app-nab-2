@@ -78,7 +78,7 @@ export default function Hero(): ReactElement {
                 </FadeUp>
                 <FadeRight duration={0.5} delay={0.8}>
                   <Link
-                    href="/about"
+                    href="https://ohmiobroadcast.io"
                     className="underline-magical w-max cursor-pointer text-xl sm:text-lg md:text-xl xl:text-2xl"
                   >
                     Claim your event reward &rarr;
