@@ -6517,6 +6517,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-jigsaw-puzzle@^1.0.4":
+  "integrity" "sha512-fg3g7G3jnQGjIz0biZ4wB9DdDnVpAhqhhaiW6ytYxJgMGHm//jXKgdyP0dorwr7csG/hXBdkAmOE6If0KLbYtw=="
+  "resolved" "https://registry.npmjs.org/react-jigsaw-puzzle/-/react-jigsaw-puzzle-1.0.4.tgz"
+  "version" "1.0.4"
+
 "react-remove-scroll-bar@^2.3.3":
   "integrity" "sha512-i9GMNWwpz8XpUpQ6QlevUtFjHGqnPG4Hxs+wlIJntu/xcsZVEpJcIV71K3ZkqNy2q3GfgvkD7y6t/Sv8ofYSbw=="
   "resolved" "https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.3.tgz"
